@@ -46,7 +46,7 @@
     
     //create translucent button
     UIButton *button2 = [self customButton];
-    button2.center = CGPointMake(250, 150);
+    button2.center = CGPointMake(50, 250);
     button2.alpha = 0.5;
     [self.containerView addSubview:button2];
     //通过这个属性设置来解决视图与子视图透明度重叠问题；

@@ -47,6 +47,7 @@
 		7BACE2421B2E9C7F00561EAF /* SixthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BACE2401B2E9C7F00561EAF /* SixthViewController.xib */; };
 		7BFE03021B2E9C2A008650FB /* Cone.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFE03001B2E9C2A008650FB /* Cone.png */; };
 		7BFE03031B2E9C2A008650FB /* Cone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFE03011B2E9C2A008650FB /* Cone@2x.png */; };
+		DD83928F1B904F5700561275 /* 图层相关123章.gif in Resources */ = {isa = PBXBuildFile; fileRef = DD83928E1B904F5700561275 /* 图层相关123章.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +117,7 @@
 		7BACE2401B2E9C7F00561EAF /* SixthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SixthViewController.xib; sourceTree = "<group>"; };
 		7BFE03001B2E9C2A008650FB /* Cone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cone.png; path = ../Cone.png; sourceTree = "<group>"; };
 		7BFE03011B2E9C2A008650FB /* Cone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cone@2x.png"; path = "../Cone@2x.png"; sourceTree = "<group>"; };
+		DD83928E1B904F5700561275 /* 图层相关123章.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "图层相关123章.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 		4D6133A91B2D3B990073C471 = {
 			isa = PBXGroup;
 			children = (
+				DD83928E1B904F5700561275 /* 图层相关123章.gif */,
 				4D6133DE1B2D402C0073C471 /* QuartzCore.framework */,
 				4D6133B41B2D3B990073C471 /* 图层相关知识 */,
 				4D6133CE1B2D3B990073C471 /* 图层相关知识Tests */,
@@ -338,6 +341,7 @@
 				7B0D92021B2EAEDC00E6B8C7 /* SeventhViewController.xib in Resources */,
 				4DA9106E1B2DA22E00CED333 /* Sprites@2x.png in Resources */,
 				7BACE2421B2E9C7F00561EAF /* SixthViewController.xib in Resources */,
+				DD83928F1B904F5700561275 /* 图层相关123章.gif in Resources */,
 				7B0D92051B2EAFFF00E6B8C7 /* Igloo.png in Resources */,
 				7B21511D1B2EBE9700996DC1 /* NinethViewController.xib in Resources */,
 				4DA910771B2DA92400CED333 /* Button@2x.png in Resources */,

@@ -53,9 +53,9 @@
     //======================通过hitTest来实现=============================
     CALayer *layer = [self.layerView.layer hitTest:point];
     if (layer == self.blueLayer) {
-        [[[UIAlertView alloc]initWithTitle:@"inside blue layer" message:nil delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil, nil] show];
+        [[[UIAlertView alloc]initWithTitle:@"绿色" message:nil delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil, nil] show];
     }else if(layer == self.layerView.layer){
-        [[[UIAlertView alloc]initWithTitle:@"inside white layer" message:nil delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil, nil] show];
+        [[[UIAlertView alloc]initWithTitle:@"白色" message:nil delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil, nil] show];
     }
 
 }
