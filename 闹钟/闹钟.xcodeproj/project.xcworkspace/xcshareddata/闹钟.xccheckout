@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>58B8488E-8092-4608-ADB0-47513DECA3C8</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>闹钟</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BC5394D8F1190DA0E0710C1F6472CC1025079B40</key>
 		<string>https://github.com/huang303513/HCDCoreAnimation.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>闹钟/闹钟.xcodeproj/project.xcworkspace</string>
+	<string>闹钟/闹钟.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BC5394D8F1190DA0E0710C1F6472CC1025079B40</key>
