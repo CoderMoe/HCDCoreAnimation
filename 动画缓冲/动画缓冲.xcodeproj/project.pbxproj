@@ -27,6 +27,7 @@
 		4D7B1F3F1B3F8EEE00186607 /* FiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D7B1F3E1B3F8EEE00186607 /* FiveViewController.xib */; };
 		4D7B1F421B3F8F6400186607 /* Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D7B1F401B3F8F6400186607 /* Ball.png */; };
 		4D7B1F431B3F8F6400186607 /* Ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D7B1F411B3F8F6400186607 /* Ball@2x.png */; };
+		DD8392911B90523C00561275 /* 动画缓冲.gif in Resources */ = {isa = PBXBuildFile; fileRef = DD8392901B90523C00561275 /* 动画缓冲.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		4D7B1F3E1B3F8EEE00186607 /* FiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FiveViewController.xib; sourceTree = "<group>"; };
 		4D7B1F401B3F8F6400186607 /* Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ball.png; sourceTree = "<group>"; };
 		4D7B1F411B3F8F6400186607 /* Ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ball@2x.png"; sourceTree = "<group>"; };
+		DD8392901B90523C00561275 /* 动画缓冲.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "动画缓冲.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		4D7B1EF21B3F6BAA00186607 = {
 			isa = PBXGroup;
 			children = (
+				DD8392901B90523C00561275 /* 动画缓冲.gif */,
 				4D7B1EFD1B3F6BAA00186607 /* 动画缓冲 */,
 				4D7B1F171B3F6BAA00186607 /* 动画缓冲Tests */,
 				4D7B1EFC1B3F6BAA00186607 /* Products */,
@@ -252,6 +255,7 @@
 			files = (
 				4D7B1F421B3F8F6400186607 /* Ball.png in Resources */,
 				4D7B1F3F1B3F8EEE00186607 /* FiveViewController.xib in Resources */,
+				DD8392911B90523C00561275 /* 动画缓冲.gif in Resources */,
 				4D7B1F3A1B3F81F000186607 /* FourViewController.xib in Resources */,
 				4D7B1F431B3F8F6400186607 /* Ball@2x.png in Resources */,
 				4D7B1F0A1B3F6BAA00186607 /* Main.storyboard in Resources */,
@@ -480,6 +484,7 @@
 				4D7B1F201B3F6BAA00186607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D7B1F211B3F6BAA00186607 /* Build configuration list for PBXNativeTarget "动画缓冲Tests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +493,7 @@
 				4D7B1F231B3F6BAA00186607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
