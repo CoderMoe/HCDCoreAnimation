@@ -18,9 +18,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
-    self.layerView1.layer.shadowOpacity = 0.5f;
-    self.layerView2.layer.shadowOpacity = 0.5f;
+   //设置阴影的水平和竖直大小
+    //self.layerView1.layer.shadowOffset = CGSizeMake(0, 15);
+    //设置阴影的模糊度
+    //self.layerView1.layer.shadowRadius = 1;
+    
+    //边框阴影透明度
+    self.layerView1.layer.shadowOpacity = 0.8f;
+    self.layerView2.layer.shadowOpacity = 0.8f;
     
     CGMutablePathRef squarePath = CGPathCreateMutable();
     //一个方形的阴影

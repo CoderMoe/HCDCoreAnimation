@@ -12,9 +12,11 @@
 
 @interface FourthViewController ()
 @property(nonatomic,strong)UIView *layerView;
+@property(nonatomic,strong)CALayer *blueLayer;
 @end
 
 @implementation FourthViewController
+@synthesize blueLayer;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -28,7 +30,7 @@
     self.layerView = layerView;
     
     
-    CALayer *blueLayer = [CALayer layer];
+    blueLayer = [CALayer layer];
     blueLayer.frame = CGRectMake(50, 50, 100, 100);
     blueLayer.backgroundColor = [UIColor blueColor].CGColor;
     blueLayer.delegate = self;
