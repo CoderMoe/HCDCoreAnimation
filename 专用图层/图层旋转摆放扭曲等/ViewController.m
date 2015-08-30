@@ -16,7 +16,7 @@
 #import "SixViewController.h"
 #import "SevenViewController.h"
 #import "EightViewController.h"
-
+#import "NinethViewController.h"
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong)UITableView *tableview;
 @property(nonatomic,strong)NSMutableArray *dataSourceList;
@@ -60,6 +60,9 @@
     
     
     animationType = [[AnimationType alloc]initWithTitle:@"用AVPlayerLayer实现播放视频" detailTitle:@"用AVPlayerLayer实现播放视频eightVC第六章"];
+    [self.dataSourceList addObject:animationType];
+
+    animationType = [[AnimationType alloc]initWithTitle:@"十个正方形依次旋转36度" detailTitle:@"十个正方形依次旋转36度"];
     [self.dataSourceList addObject:animationType];
 
     
@@ -119,6 +122,9 @@
     }else if(indexPath.row == 7){
         EightViewController *eightVC = [[EightViewController alloc]init];
         [self.navigationController pushViewController:eightVC animated:YES];
+    }else if(indexPath.row == 8){
+        NinethViewController *nineVC = [[NinethViewController alloc]init];
+        [self.navigationController pushViewController:nineVC animated:YES];
     }
 
 }

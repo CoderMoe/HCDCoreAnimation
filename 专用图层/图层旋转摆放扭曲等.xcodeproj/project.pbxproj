@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D62476F1B932519007FFC14 /* NinethViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D62476D1B932519007FFC14 /* NinethViewController.m */; };
+		4D6247701B932519007FFC14 /* NinethViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D62476E1B932519007FFC14 /* NinethViewController.xib */; };
 		7B18E1211B2ED3A8003A961E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B18E1201B2ED3A8003A961E /* main.m */; };
 		7B18E1241B2ED3A8003A961E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B18E1231B2ED3A8003A961E /* AppDelegate.m */; };
 		7B18E1271B2ED3A8003A961E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B18E1261B2ED3A8003A961E /* ViewController.m */; };
@@ -53,6 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D62476C1B932519007FFC14 /* NinethViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinethViewController.h; sourceTree = "<group>"; };
+		4D62476D1B932519007FFC14 /* NinethViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinethViewController.m; sourceTree = "<group>"; };
+		4D62476E1B932519007FFC14 /* NinethViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NinethViewController.xib; sourceTree = "<group>"; };
 		7B18E11B1B2ED3A8003A961E /* 图层旋转摆放扭曲等.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图层旋转摆放扭曲等.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B18E11F1B2ED3A8003A961E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B18E1201B2ED3A8003A961E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -187,6 +192,9 @@
 				7BD597571B3AB33800DCF446 /* EightViewController.h */,
 				7BD597581B3AB33800DCF446 /* EightViewController.m */,
 				7BD597591B3AB33800DCF446 /* EightViewController.xib */,
+				4D62476C1B932519007FFC14 /* NinethViewController.h */,
+				4D62476D1B932519007FFC14 /* NinethViewController.m */,
+				4D62476E1B932519007FFC14 /* NinethViewController.xib */,
 			);
 			path = "图层旋转摆放扭曲等";
 			sourceTree = "<group>";
@@ -306,6 +314,7 @@
 				7B21BABE1B3A3BA800BD5823 /* SecondViewController.xib in Resources */,
 				7BA254A71B3A60F200BD1B81 /* FourViewController.xib in Resources */,
 				7BA252311B3A45AD00BD1B81 /* ThirdViewController.xib in Resources */,
+				4D6247701B932519007FFC14 /* NinethViewController.xib in Resources */,
 				7B18E12A1B2ED3A8003A961E /* Main.storyboard in Resources */,
 				7BA254B81B3A957800BD1B81 /* Anchor@2x.png in Resources */,
 				7BD597561B3AAB1700DCF446 /* SevenViewController.xib in Resources */,
@@ -341,6 +350,7 @@
 				7BA254A61B3A60F200BD1B81 /* FourViewController.m in Sources */,
 				7B18E1271B2ED3A8003A961E /* ViewController.m in Sources */,
 				7BD597501B3AA87600DCF446 /* SevenViewController.m in Sources */,
+				4D62476F1B932519007FFC14 /* NinethViewController.m in Sources */,
 				7BA254AE1B3A8A0800BD1B81 /* FiveViewController.m in Sources */,
 				7BA254BB1B3A95B600BD1B81 /* ReflectionView.m in Sources */,
 				7BD5975A1B3AB33800DCF446 /* EightViewController.m in Sources */,

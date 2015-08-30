@@ -23,7 +23,8 @@
     //移动
     transform = CATransform3DTranslate(transform, 0, verticalOffset, 0);
     //转换
-    transform = CATransform3DScale(transform, 1, -1, 0);
+    transform = CATransform3DScale(transform, -1, -1, 0);
+    //instanceTransform指定了一个CATransform3D3D变换
     layer.instanceTransform = transform;
     
     //透明度

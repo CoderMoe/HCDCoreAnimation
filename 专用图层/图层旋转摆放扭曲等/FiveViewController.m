@@ -27,7 +27,7 @@
     
     gradientLayer.locations = @[@0.0, @0.25, @0.5];
     gradientLayer.startPoint = CGPointMake(0, 0);
-    gradientLayer.endPoint = CGPointMake(1, 1);
+    gradientLayer.endPoint = CGPointMake(0, 1);
     
     
     
