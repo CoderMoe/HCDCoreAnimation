@@ -17,6 +17,7 @@
 #import "SevenViewController.h"
 #import "EightViewController.h"
 #import "NinethViewController.h"
+#import "TenthViewController.h"
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong)UITableView *tableview;
 @property(nonatomic,strong)NSMutableArray *dataSourceList;
@@ -63,6 +64,9 @@
     [self.dataSourceList addObject:animationType];
 
     animationType = [[AnimationType alloc]initWithTitle:@"十个正方形依次旋转36度" detailTitle:@"十个正方形依次旋转36度"];
+    [self.dataSourceList addObject:animationType];
+
+    animationType = [[AnimationType alloc]initWithTitle:@"实现子弹爆炸的动画" detailTitle:@"实现子弹爆炸的动画"];
     [self.dataSourceList addObject:animationType];
 
     
@@ -125,6 +129,9 @@
     }else if(indexPath.row == 8){
         NinethViewController *nineVC = [[NinethViewController alloc]init];
         [self.navigationController pushViewController:nineVC animated:YES];
+    }else if(indexPath.row == 9){
+        TenthViewController *tenVC = [[TenthViewController alloc]init];
+        [self.navigationController pushViewController:tenVC animated:YES];
     }
 
 }

@@ -42,6 +42,9 @@
 		7BD5975A1B3AB33800DCF446 /* EightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD597581B3AB33800DCF446 /* EightViewController.m */; };
 		7BD5975B1B3AB33800DCF446 /* EightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BD597591B3AB33800DCF446 /* EightViewController.xib */; };
 		7BD5975D1B3AB3AE00DCF446 /* Ship.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7BD5975C1B3AB3AE00DCF446 /* Ship.mp4 */; };
+		DDBC07BC1B9C0A450015B73D /* TenthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBC07BA1B9C0A450015B73D /* TenthViewController.m */; };
+		DDBC07BD1B9C0A450015B73D /* TenthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDBC07BB1B9C0A450015B73D /* TenthViewController.xib */; };
+		DDBC07BF1B9C0A890015B73D /* Spark.png in Resources */ = {isa = PBXBuildFile; fileRef = DDBC07BE1B9C0A890015B73D /* Spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +112,10 @@
 		7BD597581B3AB33800DCF446 /* EightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EightViewController.m; sourceTree = "<group>"; };
 		7BD597591B3AB33800DCF446 /* EightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EightViewController.xib; sourceTree = "<group>"; };
 		7BD5975C1B3AB3AE00DCF446 /* Ship.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ship.mp4; sourceTree = "<group>"; };
+		DDBC07B91B9C0A450015B73D /* TenthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TenthViewController.h; sourceTree = "<group>"; };
+		DDBC07BA1B9C0A450015B73D /* TenthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TenthViewController.m; sourceTree = "<group>"; };
+		DDBC07BB1B9C0A450015B73D /* TenthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TenthViewController.xib; sourceTree = "<group>"; };
+		DDBC07BE1B9C0A890015B73D /* Spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +202,9 @@
 				4D62476C1B932519007FFC14 /* NinethViewController.h */,
 				4D62476D1B932519007FFC14 /* NinethViewController.m */,
 				4D62476E1B932519007FFC14 /* NinethViewController.xib */,
+				DDBC07B91B9C0A450015B73D /* TenthViewController.h */,
+				DDBC07BA1B9C0A450015B73D /* TenthViewController.m */,
+				DDBC07BB1B9C0A450015B73D /* TenthViewController.xib */,
 			);
 			path = "图层旋转摆放扭曲等";
 			sourceTree = "<group>";
@@ -202,6 +212,7 @@
 		7B18E11E1B2ED3A8003A961E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DDBC07BE1B9C0A890015B73D /* Spark.png */,
 				7BD5975C1B3AB3AE00DCF446 /* Ship.mp4 */,
 				7BA254B51B3A957800BD1B81 /* Anchor.png */,
 				7BA254B61B3A957800BD1B81 /* Anchor@2x.png */,
@@ -310,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDBC07BD1B9C0A450015B73D /* TenthViewController.xib in Resources */,
 				7B18E14F1B2ED6F6003A961E /* Snowman@2x.png in Resources */,
 				7B21BABE1B3A3BA800BD5823 /* SecondViewController.xib in Resources */,
 				7BA254A71B3A60F200BD1B81 /* FourViewController.xib in Resources */,
@@ -323,6 +335,7 @@
 				7BA254AF1B3A8A0800BD1B81 /* FiveViewController.xib in Resources */,
 				7B18E14E1B2ED6F6003A961E /* Snowman.png in Resources */,
 				7BD5975D1B3AB3AE00DCF446 /* Ship.mp4 in Resources */,
+				DDBC07BF1B9C0A890015B73D /* Spark.png in Resources */,
 				7BA254B71B3A957800BD1B81 /* Anchor.png in Resources */,
 				7B18E12C1B2ED3A8003A961E /* Images.xcassets in Resources */,
 				7B18E14B1B2ED5EC003A961E /* FirstViewController.xib in Resources */,
@@ -356,6 +369,7 @@
 				7BD5975A1B3AB33800DCF446 /* EightViewController.m in Sources */,
 				7B18E14A1B2ED5EC003A961E /* FirstViewController.m in Sources */,
 				7BA254AA1B3A611200BD1B81 /* LayerLable.m in Sources */,
+				DDBC07BC1B9C0A450015B73D /* TenthViewController.m in Sources */,
 				7B18E1241B2ED3A8003A961E /* AppDelegate.m in Sources */,
 				7BA254B21B3A92CA00BD1B81 /* SixViewController.m in Sources */,
 				7B18E1211B2ED3A8003A961E /* main.m in Sources */,

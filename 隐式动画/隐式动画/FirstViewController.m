@@ -32,9 +32,9 @@
 
 - (IBAction)changeColour:(id)sender {
     
-    //[self function1];
+    [self function1];
     
-    [self function2];
+    //[self function2];
     
 }
 
