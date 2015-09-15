@@ -27,7 +27,7 @@
 }
 
 - (IBAction)switchImage:(id)sender {
-    [UIView transitionWithView:self.imageView duration:0.5 options:UIViewAnimationOptionTransitionFlipFromTop|UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+    [UIView transitionWithView:self.imageView duration:1.5 options:UIViewAnimationOptionTransitionFlipFromTop|UIViewAnimationOptionTransitionCrossDissolve animations:^{
         UIImage *currentImage = self.imageView.image;
         NSUInteger index = [self.images indexOfObject:currentImage];
         index = (index + 1)%[self.images count];
