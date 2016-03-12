@@ -3,8 +3,8 @@
 </br>
 各种动画装逼技巧。此为学习这本书籍的时候写的一些demo。
 </br>
-欢迎大家start，fork，下载学习，优化。
-</br>
+马上会有大量的更新。敬请期待。
+
 ##:关于图层
 </br>
   ![image](https://github.com/huang303513/HCDCoreAnimation/blob/master/%E5%9B%BE%E5%B1%82%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86%E2%80%94%E2%80%941%EF%BC%8C2%EF%BC%8C3%E7%AB%A0/%E5%9B%BE%E5%B1%82%E7%9B%B8%E5%85%B3123%E7%AB%A0.gif)
