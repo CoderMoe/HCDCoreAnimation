@@ -1,5 +1,7 @@
 # HCDCoreAnimation
 [iOS核心动画高级技巧](https://www.gitbook.com/book/zsisme/ios-/details)
+
+[加载动画之牛顿摆的实现](http://lib.csdn.net/article/ios/36934)</br>
 </br>
 各种动画装逼技巧。此为学习这本书籍的时候写的一些demo。
 </br>
